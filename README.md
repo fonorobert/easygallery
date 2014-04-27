@@ -1,5 +1,6 @@
 Easygallery
 ===========
+*Current version: 1.0.0*
 
 A simple css/javascript plugin to make your HTML gallery rock.
 Built on [swipebox](http://github.com/brutaldesign/swipebox)
@@ -45,9 +46,9 @@ etc.
 
 - Easygallery
 ```html
-<link rel="stylesheet" tyep="text/css" href="css/easygallery.css">
+<link rel="stylesheet" tyep="text/css" href="css/easygallery.min.css">
 
-<script type="application/javascript" src="js/easygallery.js"></script>
+<script type="application/javascript" src="js/easygallery.min.js"></script>
 ```
 **Important:** Put your ```<link>``` elements in the ```<head>``` and your ```<script>``` elements right before ```</body>```.
 Also, put ```<script>``` of jQuery before any other ```<script>```!
