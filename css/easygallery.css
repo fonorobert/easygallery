@@ -1,0 +1,17 @@
+/*EASYGALLERY*/
+
+.thumb {
+	padding: 4px;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	line-height: 1.43;
+	background-size: cover;
+	background-position: center center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
