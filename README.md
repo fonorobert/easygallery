@@ -2,14 +2,16 @@ Easygallery
 ===========
 
 A simple css/javascript plugin to make your HTML gallery rock.
+Built on [swipebox](http://github.com/brutaldesign/swipebox)
 
-#####You will need Swipebox to use Easygallery. You can find it here: [http://brutaldesign.github.io/swipebox](http://brutaldesign.github.io/swipebox)
-#####Both Swipebox and Easygallery depend on jQuery. Download the latest version here: [http://jquery.com/download](http://jquery.com/download)
+#####Easygallery depends on jQuery. Download the latest version here: [http://jquery.com/download](http://jquery.com/download)
 
 #How to use
 
-1) Download easgallery.js and easygallery.css
+1) Download [Easygallery](https://github.com/fonorobert/easygallery/archive/master.zip)
+
 2) Set up your folders
+
 Example:
 ```
     -project
@@ -17,9 +19,11 @@ Example:
     --js
     --img
     ---thumbs
+    --index.html
 ```
 	
 3) Set up your markup
+
 Example:
 ```html
 <a href="img/pic1.jpg" class="swipebox" title="Picture 1">
@@ -38,12 +42,7 @@ etc.
 ```html
 <script type="application/javascript" src="js/jquery.js"></script>
 ```
-- Swipebox css and js
-```html
-<link rel="stylesheet" tyep="text/css" href="css/swipebox.css">
 
-<script type="application/javascript" src="js/jquery.swipebox.js"></script>
-```
 - Easygallery
 ```html
 <link rel="stylesheet" tyep="text/css" href="css/easygallery.css">
