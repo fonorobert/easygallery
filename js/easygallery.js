@@ -5,7 +5,7 @@
 //EASYGALLERY
 
 // Initiate swipebox
-$( '.swipebox' ).swipebox({
+$( '.easygallery' ).swipebox({
     hideBarsOnMobile: false
 });
 
